@@ -4,7 +4,7 @@ const app = require("./app");
 
 mongoose
   .connect(
-    "mongodb+srv://kshitijg:ZSaJgm2MWxyf3y5V@cluster0.1pqxmtj.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://kshitijg:ZSaJgm2MWxyf3y5V@cluster0.1pqxmtj.mongodb.net/ToDo?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
